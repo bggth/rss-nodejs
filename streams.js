@@ -61,8 +61,8 @@ class CLIWriter extends Writable {
 	constructor(opt) {
 		super(opt)
 		if (opt) {
-			//this.stream = createWriteStream(opt, {flags: 'a'});
-			this.stream = createWriteStream(opt);
+			this.stream = createWriteStream(opt, {flags: 'a'});
+			//this.stream = createWriteStream(opt);
 		} else {
 			this.stream = process.stdout;
 		}
