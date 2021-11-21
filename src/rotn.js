@@ -3,7 +3,7 @@ class RotN {
 		if (n>=1 && n<=26) {
 			this.n = n;
 		} else {
-			// error
+			this.n = (n % 26)
 		}
 	}
 
