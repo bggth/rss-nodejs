@@ -1,0 +1,27 @@
+{
+  "name": "rss-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bggth/rss-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bggth/rss-nodejs/issues"
+  },
+  "homepage": "https://github.com/bggth/rss-nodejs#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
